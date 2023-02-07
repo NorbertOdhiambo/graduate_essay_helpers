@@ -1,0 +1,174 @@
+/* testimonial element-five */
+
+.testimonial.element-five {
+    width: auto;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.testimonial.element-five .testimonial-item {
+    padding: 15px 15px 15px 15px;
+}
+
+.testimonial.element-five:not(.owl-carousel) .testimonial-item {
+    float: left;
+    margin-bottom: 40px;
+}
+
+.testimonial.element-five .testimonial-item>.holder {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 25px 25px 35px 25px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.testimonial.element-five .testimonial-item>.holder:hover {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
+}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-title {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 270px;
+    min-height: 60px;
+    margin-bottom: 17px;
+    padding-top: 6px;
+    padding-left: 75px;
+    text-align: left;
+}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-title>.testimonial-title-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-title>.testimonial-title-pic img {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-title>.testimonial-title-data {}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-title>.testimonial-title-data>*:last-child {
+    margin-bottom: 0 !important;
+}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-title>.testimonial-title-data .title {
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #030712;
+    line-height: 26px;
+}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-title>.testimonial-title-data .designation {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7a7a7a;
+    line-height: 22px;
+}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-data {}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-data blockquote {
+    margin-bottom: 13px;
+}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-data blockquote>*:last-child {
+    margin-bottom: 0 !important;
+}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-data blockquote p {
+    margin-bottom: 20px;
+}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-data .btn {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: initial;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-data .btn:hover {
+    padding-right: 20px;
+}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-data .btn i {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.testimonial.element-five .testimonial-item>.holder>.testimonial-data .btn:hover i {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px) {}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px) {}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px) {}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px) {
+
+    .testimonial.element-five:not(.owl-carousel) .testimonial-item {
+        width: 100% !important;
+    }
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px) {
+
+    .testimonial.element-five:not(.owl-carousel) .testimonial-item {
+        width: 100% !important;
+    }
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px) {
+
+    .testimonial.element-five:not(.owl-carousel) .testimonial-item {
+        width: 100% !important;
+    }
+
+}

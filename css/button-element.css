@@ -1,0 +1,12 @@
+.gdpr-notice .btn,
+.team.element-six .team-item>.holder .data .btn,
+.radiantthemes-button>.radiantthemes-button-main,
+.rt-fancy-text-box>.holder>.more .btn,
+.rt-call-to-action-wraper .rt-call-to-action-item .btn:hover,
+.radiant-contact-form .form-row input[type=submit],
+.wraper_error_main.style-one .error_main .btn,
+.wraper_error_main.style-two .error_main .btn,
+.wraper_error_main.style-three .error_main_item .btn,
+.wraper_error_main.style-four .error_main .btn {
+    border-radius: 30px 30px 30px 30px;
+}

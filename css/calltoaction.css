@@ -1,0 +1,10 @@
+.rt-call-to-action-wraper.element-one .rt-call-to-action-item .btn {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.rt-call-to-action-wraper.element-one .rt-call-to-action-item .btn:hover {
+    background-color: #dd1313 !important;
+    color: #FFFFFF;
+}

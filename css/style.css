@@ -1,0 +1,87 @@
+/*menu icon size & icon*/
+.fa {
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+/*sticky menu */
+.wraper_header.floating-header {
+    position: fixed;
+    background-color: #c8d9f8 !important;
+}
+
+/*Header cust*/
+.wraper_header_main>.container {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.header_main .brand-logo {
+    float: left;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 0;
+}
+
+.header_main .brand-logo img {
+    max-width: 210px;
+}
+
+/*menu padding top*/
+.nav {
+    float: right;
+    margin-top: 25px;
+    text-align: right;
+}
+
+/*menu button padding top*/
+.header_main_action_buttons {
+    float: right;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 0;
+}
+
+/*mobile menu icon*/
+.header_main .responsive-nav {
+    float: right;
+    margin-top: 25px;
+}
+
+/*menu padding right*/
+.nav>[class*="menu-"]>ul.menu>li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    height: auto;
+    margin-right: 25px;
+}
+
+.header_main_action_buttons .btn {
+    border-radius: 5px;
+}
+
+/*menu close*/
+.mobile-menu-close {
+    padding: 10px 15px 8px 15px;
+    border-bottom: 1px rgba(0, 0, 0, 0.075) solid;
+    text-align: center;
+    cursor: pointer;
+}
+
+.mobile-menu-nav>[class*="menu-"]>ul.menu>li.menu-item-has-children>.radiantthemes-open-submenu {
+    width: 100px;
+}
+
+.mobile-menu-nav>[class*="menu-"]>ul.menu>li.menu-item-has-children>.radiantthemes-open-submenu::before {
+    content: "+";
+    font-size: 230%;
+    line-height: 47px;
+}
+
+.fa-bars {
+    font-size: 25px;
+    padding-right: 5px;
+}
